@@ -1531,3 +1531,283 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2026.02.12-19.57.24:486][280]AssetCheck: New page: Asset Save: VRTemplateMap
 [2026.02.12-19.57.24:486][280]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
 [2026.02.12-19.57.41:454][520]LogDerivedDataCache: C:/Users/gvida/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.083 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1442 files in 2205 folders with total size 98 MiB.
+[2026.02.12-19.58.27:412][809]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.12-19.58.27:417][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.12-19.58.27:418][809]PIE: New page: PIE session: VRTemplateMap (Feb 12, 2026, 11:58:27 PM)
+[2026.02.12-19.58.27:418][809]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2026.02.12-19.58.27:421][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002874s)
+[2026.02.12-19.58.27:421][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.002908s)
+[2026.02.12-19.58.27:421][809]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.27:421][809]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.02.12-19.58.27:421][809]LogAIModule: Creating AISystem for world VRTemplateMap
+[2026.02.12-19.58.27:422][809]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2026.02.12-19.58.27:428][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.02.12-19.58.27:429][809]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.02.12-19.58.27:429][809]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.12-19.58.27:429][809]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.12-19.58.27:429][809]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.12-19.58.27:429][809]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.12-19.58.27:429][809]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.12-19.58.27:429][809]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.02.12-19.58.27:429][809]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.12-19.58.27:429][809]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.12-19.58.27:429][809]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.12-19.58.27:429][809]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.12-19.58.27:429][809]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.12-19.58.27:432][809]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.12-19.58.27:458][809]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.12-19.58.27:458][809]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.12-19.58.27:458][809]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.12-19.58.27:458][809]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.12-19.58.27:458][809]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.02.12-19.58.27:458][809]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.02.12-19.58.27:460][809]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.02.12-19.58.27:460][809]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.02.12-19.58.27:460][809]LogInit: FAudioDevice initialized with ID 5.
+[2026.02.12-19.58.27:460][809]LogAudio: Display: Audio Device (ID: 5) registered with world 'VRTemplateMap'.
+[2026.02.12-19.58.27:460][809]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.02.12-19.58.27:462][809]LogLoad: Game class is 'VRGameMode_C'
+[2026.02.12-19.58.27:463][809]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2026.02.12-21.58.27
+[2026.02.12-19.58.27:463][809]LogWorld: Bringing up level for play took: 0.000576
+[2026.02.12-19.58.27:465][809]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.02.12-19.58.27:467][809]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2026.02.12-19.58.27:467][809]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2026.02.12-19.58.27:468][809]PIE: Server logged in
+[2026.02.12-19.58.27:469][809]PIE: Play in editor total start time 0.051 seconds.
+[2026.02.12-19.58.28:893][978]LogLongPackageNames: Warning: Can't Find URL: None: . Invalidating and reverting to Default URL.
+[2026.02.12-19.58.28:894][978]LogLongPackageNames: Warning: Can't Find URL: None: . Invalidating and reverting to Default URL.
+[2026.02.12-19.58.28:894][978]LogNet: Browse: /Game/VRTemplate/Maps/VRTemplateMap
+[2026.02.12-19.58.28:894][978]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/VRTemplate/Maps/VRTemplateMap
+[2026.02.12-19.58.28:894][978]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/VRTemplate/Maps/VRTemplateMap'
+[2026.02.12-19.58.28:894][978]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/VRTemplate/Maps/VRTemplateMap
+[2026.02.12-19.58.28:894][978]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/VRTemplate/Maps/VRTemplateMap'
+[2026.02.12-19.58.28:900][979]LogNet: Browse: /Game/VRTemplate/Maps/VRTemplateMap?closed
+[2026.02.12-19.58.28:900][979]LogNet: Connection failed; returning to Entry
+[2026.02.12-19.58.28:900][979]LogLoad: LoadMap: /Game/VRTemplate/Maps/VRTemplateMap?closed
+[2026.02.12-19.58.28:900][979]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2026.02.12-19.58.28:900][979]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.58.28:901][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.58.28:947][979]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.12-19.58.28:947][979]LogSlate: Slate User Unregistered.  User Index 8
+[2026.02.12-19.58.28:947][979]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2026.02.12-19.58.28:948][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.02.12-19.58.28:948][979]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2026.02.12-19.58.28:950][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002160s)
+[2026.02.12-19.58.28:950][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.002195s)
+[2026.02.12-19.58.28:950][979]LogAudio: Display: Audio Device (ID: 5) registered with world 'VRTemplateMap'.
+[2026.02.12-19.58.28:951][979]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.28:951][979]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.02.12-19.58.28:951][979]LogAIModule: Creating AISystem for world VRTemplateMap
+[2026.02.12-19.58.28:951][979]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2026.02.12-19.58.28:951][979]LogLoad: Game class is 'VRGameMode_C'
+[2026.02.12-19.58.28:952][979]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2026.02.12-21.58.28
+[2026.02.12-19.58.28:952][979]LogWorld: Bringing up level for play took: 0.000396
+[2026.02.12-19.58.28:954][979]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2026.02.12-19.58.28:954][979]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2026.02.12-19.58.28:955][979]LogLoad: Took 0.054868 seconds to LoadMap(/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap)
+[2026.02.12-19.58.28:962][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.02.12-19.58.30:818][202]Cmd: quit
+[2026.02.12-19.58.30:819][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-19.58.30:819][202]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2026.02.12-19.58.30:859][202]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.58.30:859][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.58.30:862][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.12-19.58.30:865][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.58.30:870][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-19.58.30:871][202]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.02.12-19.58.30:871][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2026.02.12-19.58.30:872][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2026.02.12-19.58.30:876][202]LogSlate: Slate User Unregistered.  User Index 8
+[2026.02.12-19.58.30:876][202]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2026.02.12-19.58.30:877][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.02.12-19.58.30:880][202]LogActorComponent: ReregisterComponent: (/Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.Fire_Cue_2.AudioComponent0) Not currently registered. Aborting.
+[2026.02.12-19.58.30:927][207]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.02.12-19.58.31:776][307]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.02.12-19.58.35:688][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.02.12-19.58.35:722][773]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.35:722][773]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MenuMap.MenuMap
+[2026.02.12-19.58.35:722][773]Cmd: MAP LOAD FILE="../../../../../../Users/gvida/Documents/GitHub/PVP2026VR_K683/KETTaisyklesProj/Content/Maps/MenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.02.12-19.58.35:723][773]LightingResults: New page: Lighting Build
+[2026.02.12-19.58.35:723][773]LoadErrors: New page: Loading map: MenuMap.umap
+[2026.02.12-19.58.35:724][773]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.58.35:725][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.58.35:725][773]MapCheck: New page: Map Check
+[2026.02.12-19.58.35:725][773]LightingResults: New page: Lighting Build
+[2026.02.12-19.58.35:731][773]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.12-19.58.35:733][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.02.12-19.58.35:734][773]LogWorld: UWorld::CleanupWorld for MenuMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.58.35:734][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.58.35:743][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.12-19.58.35:752][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.02.12-19.58.35:757][773]LogAudio: Display: Audio Device (ID: 1) registered with world 'MenuMap'.
+[2026.02.12-19.58.35:757][773]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.35:757][773]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.02.12-19.58.35:757][773]LogAIModule: Creating AISystem for world MenuMap
+[2026.02.12-19.58.35:774][773]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.12-19.58.35:781][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.02.12-19.58.35:784][773]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.12-19.58.35:784][773]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.12ms to complete.
+[2026.02.12-19.58.35:784][773]LogFileHelpers: Loading map 'MenuMap' took 0.061
+[2026.02.12-19.58.42:869][620]LogEditorViewport: Clicking Background
+[2026.02.12-19.58.51:734][678]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: ================================================
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: Total job queries 37, among them cache hits 0 (0.00%)
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: Tracking 37 distinct input hashes that result in 26 distinct outputs (70.27%)
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: RAM used: 1.30 MiB of 819.20 MiB budget. Usage: 0.16%
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: Shaders Compiled: 0
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2026.02.12-19.58.51:789][679]LogShaderCompilers: Display: ================================================
+[2026.02.12-19.58.51:975][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.52:004][700]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.52:011][700]LogMaterial: Warning: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Materials\Functions\MF_OccludedPixels.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Only transparent or postprocess materials can read from scene depth.
+
+[2026.02.12-19.58.52:019][701]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.52:057][703]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.58.52:307][732]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.00:852][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.02.12-19.59.00:894][738]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASD.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.00:900][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.00:906][738]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VRTemplate/Maps/ASD.ASD
+[2026.02.12-19.59.00:906][738]Cmd: MAP LOAD FILE="../../../../../../Users/gvida/Documents/GitHub/PVP2026VR_K683/KETTaisyklesProj/Content/VRTemplate/Maps/ASD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.02.12-19.59.00:906][738]LightingResults: New page: Lighting Build
+[2026.02.12-19.59.00:906][738]LoadErrors: New page: Loading map: ASD.umap
+[2026.02.12-19.59.00:931][738]LogWorld: UWorld::CleanupWorld for MenuMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.00:931][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.00:931][738]MapCheck: New page: Map Check
+[2026.02.12-19.59.00:931][738]LightingResults: New page: Lighting Build
+[2026.02.12-19.59.00:937][738]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.12-19.59.00:939][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.02.12-19.59.00:940][738]LogWorld: UWorld::CleanupWorld for ASD, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.00:940][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.00:949][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.02.12-19.59.00:955][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.02.12-19.59.00:959][738]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASD.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.00:965][738]LogAudio: Display: Audio Device (ID: 1) registered with world 'ASD'.
+[2026.02.12-19.59.00:965][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.00:965][738]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.02.12-19.59.00:965][738]LogAIModule: Creating AISystem for world ASD
+[2026.02.12-19.59.01:006][738]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.12-19.59.01:014][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.02.12-19.59.01:016][738]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.12-19.59.01:017][738]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.119ms to complete.
+[2026.02.12-19.59.01:017][738]LogFileHelpers: Loading map 'ASD' took 0.110
+[2026.02.12-19.59.02:757][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.02.12-19.59.02:793][902]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASD1.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.02:799][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.02:805][902]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VRTemplate/Maps/ASD1.ASD1
+[2026.02.12-19.59.02:805][902]Cmd: MAP LOAD FILE="../../../../../../Users/gvida/Documents/GitHub/PVP2026VR_K683/KETTaisyklesProj/Content/VRTemplate/Maps/ASD1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.02.12-19.59.02:805][902]LightingResults: New page: Lighting Build
+[2026.02.12-19.59.02:805][902]LoadErrors: New page: Loading map: ASD1.umap
+[2026.02.12-19.59.02:808][902]LogWorld: UWorld::CleanupWorld for ASD, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.02:808][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.02:808][902]MapCheck: New page: Map Check
+[2026.02.12-19.59.02:808][902]LightingResults: New page: Lighting Build
+[2026.02.12-19.59.02:815][902]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.12-19.59.02:818][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.02.12-19.59.02:819][902]LogWorld: UWorld::CleanupWorld for ASD1, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.02:819][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.02:828][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.02.12-19.59.02:836][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.02.12-19.59.02:839][902]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASD1.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.02:845][902]LogAudio: Display: Audio Device (ID: 1) registered with world 'ASD1'.
+[2026.02.12-19.59.02:845][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.02:845][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.02.12-19.59.02:845][902]LogAIModule: Creating AISystem for world ASD1
+[2026.02.12-19.59.02:886][902]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.12-19.59.02:895][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.02.12-19.59.02:897][902]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.12-19.59.02:897][902]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2026.02.12-19.59.02:897][902]LogFileHelpers: Loading map 'ASD1' took 0.092
+[2026.02.12-19.59.03:610][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.02.12-19.59.03:646][964]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASd2.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.03:651][964]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.03:658][964]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VRTemplate/Maps/ASd2.ASd2
+[2026.02.12-19.59.03:658][964]Cmd: MAP LOAD FILE="../../../../../../Users/gvida/Documents/GitHub/PVP2026VR_K683/KETTaisyklesProj/Content/VRTemplate/Maps/ASd2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.02.12-19.59.03:658][964]LightingResults: New page: Lighting Build
+[2026.02.12-19.59.03:658][964]LoadErrors: New page: Loading map: ASd2.umap
+[2026.02.12-19.59.03:682][964]LogWorld: UWorld::CleanupWorld for ASD1, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.03:682][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.03:682][964]MapCheck: New page: Map Check
+[2026.02.12-19.59.03:682][964]LightingResults: New page: Lighting Build
+[2026.02.12-19.59.03:688][964]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.12-19.59.03:691][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2026.02.12-19.59.03:692][964]LogWorld: UWorld::CleanupWorld for ASd2, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.03:692][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.03:700][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.02.12-19.59.03:706][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.02.12-19.59.03:711][964]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASd2.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.03:717][964]LogAudio: Display: Audio Device (ID: 1) registered with world 'ASd2'.
+[2026.02.12-19.59.03:717][964]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.03:717][964]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.02.12-19.59.03:717][964]LogAIModule: Creating AISystem for world ASd2
+[2026.02.12-19.59.03:756][964]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.12-19.59.03:764][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.02.12-19.59.03:766][964]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.12-19.59.03:766][964]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.119ms to complete.
+[2026.02.12-19.59.03:766][964]LogFileHelpers: Loading map 'ASd2' took 0.108
+[2026.02.12-19.59.07:241][360]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASD1.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.07:247][360]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.07:253][360]LogObjectTools: Deleting 1 worlds: /Game/VRTemplate/Maps/ASD1.ASD1
+[2026.02.12-19.59.07:253][360]LogObjectTools: Currently 9 active worlds: /Game/VRTemplate/Maps/ASd2.ASd2, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7
+[2026.02.12-19.59.07:260][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.02.12-19.59.08:646][360]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.12-19.59.08:653][360]LogWorld: UWorld::CleanupWorld for ASD1, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.08:654][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.08:667][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.02.12-19.59.08:674][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.02.12-19.59.08:679][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.02.12-19.59.09:628][470]LogObjectTools: Deleting 1 worlds: /Game/VRTemplate/Maps/ASd2.ASd2
+[2026.02.12-19.59.09:628][470]LogObjectTools: Currently 9 active worlds: /Game/VRTemplate/Maps/ASd2.ASd2, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7
+[2026.02.12-19.59.10:945][470]LogSlate: Window 'Unable to delete level' being destroyed
+[2026.02.12-19.59.10:961][470]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2026.02.12-19.59.11:867][578]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASD.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.11:874][578]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.11:879][578]LogObjectTools: Deleting 1 worlds: /Game/VRTemplate/Maps/ASD.ASD
+[2026.02.12-19.59.11:879][578]LogObjectTools: Currently 9 active worlds: /Game/VRTemplate/Maps/ASd2.ASd2, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7
+[2026.02.12-19.59.11:886][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.02.12-19.59.12:557][578]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.12-19.59.12:563][578]LogWorld: UWorld::CleanupWorld for ASD, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.12:563][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.12:574][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2026.02.12-19.59.12:580][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.02.12-19.59.12:587][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.02.12-19.59.18:426][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.02.12-19.59.18:467][257]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.18:468][257]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2026.02.12-19.59.18:468][257]Cmd: MAP LOAD FILE="../../../../../../Users/gvida/Documents/GitHub/PVP2026VR_K683/KETTaisyklesProj/Content/VRTemplate/Maps/VRTemplateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.02.12-19.59.18:468][257]LightingResults: New page: Lighting Build
+[2026.02.12-19.59.18:468][257]LoadErrors: New page: Loading map: VRTemplateMap.umap
+[2026.02.12-19.59.18:492][257]LogWorld: UWorld::CleanupWorld for ASd2, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.18:492][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.18:492][257]MapCheck: New page: Map Check
+[2026.02.12-19.59.18:492][257]LightingResults: New page: Lighting Build
+[2026.02.12-19.59.18:498][257]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.12-19.59.18:500][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.02.12-19.59.18:501][257]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.18:501][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.18:510][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.02.12-19.59.18:516][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.02.12-19.59.18:526][257]LogAudio: Display: Audio Device (ID: 1) registered with world 'VRTemplateMap'.
+[2026.02.12-19.59.18:526][257]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.18:526][257]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.02.12-19.59.18:526][257]LogAIModule: Creating AISystem for world VRTemplateMap
+[2026.02.12-19.59.18:588][257]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.12-19.59.18:595][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.02.12-19.59.18:597][257]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.12-19.59.18:597][257]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2026.02.12-19.59.18:597][257]LogFileHelpers: Loading map 'VRTemplateMap' took 0.128
+[2026.02.12-19.59.23:717][860]LogBlueprint: Error: [AssetLog] C:\Users\gvida\Documents\GitHub\PVP2026VR_K683\KETTaisyklesProj\Content\VRTemplate\Maps\ASd2.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2026.02.12-19.59.23:722][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2026.02.12-19.59.23:729][860]LogObjectTools: Deleting 1 worlds: /Game/VRTemplate/Maps/ASd2.ASd2
+[2026.02.12-19.59.23:729][860]LogObjectTools: Currently 9 active worlds: /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7
+[2026.02.12-19.59.23:736][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.02.12-19.59.24:439][860]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.12-19.59.24:444][860]LogWorld: UWorld::CleanupWorld for ASd2, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-19.59.24:444][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-19.59.24:455][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2026.02.12-19.59.24:462][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.02.12-19.59.24:468][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
